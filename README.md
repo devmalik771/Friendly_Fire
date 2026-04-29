@@ -60,7 +60,7 @@
 
 - SRS 03: The blaster firmware decrements the ammo counter each time a valid shot is fired and prevents any further firing once the ammo count reaches zero. The LCD display updates the visible ammo count within 100 ms of each shot, providing immediate feedback to the user and ensuring the displayed value always reflects the true internal state.
 
-S- RS 04: The reload mechanic is implemented exclusively through a shake-to-reload gesture detected by the MPU6050 accelerometer. When a valid shake pattern is identified, the system initiates a reload sequence that restores the ammo count to its maximum value, providing a responsive and intuitive method for reloading without requiring button input.
+- SRS 04: The reload mechanic is implemented exclusively through a shake-to-reload gesture detected by the MPU6050 accelerometer. When a valid shake pattern is identified, the system initiates a reload sequence that restores the ammo count to its maximum value, providing a responsive and intuitive method for reloading without requiring button input.
 
 - SRS 05: The vest firmware transmits updated player status information, including current health and elimination state, to the BLE module via UART within 500 ms of any change in game state. This ensures that external systems, such as a connected web application, receive timely and accurate updates reflecting in-game events.
 
