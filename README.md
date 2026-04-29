@@ -1,10 +1,10 @@
-<h1 align="center">Project Title</h1>
+<h1 align="center">ESE 3500</h1>
 
 <p align="center">
-  <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Member One</strong></span>
-  <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Member Two</strong></span>
-  <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Member Three</strong></span>
-  <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Member Four</strong></span>
+  <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Devan Malik</strong></span>
+  <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Marko Mijatovic</strong></span>
+  <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Kim Huang</strong></span>
+  <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Victor Wanjohi</strong></span>
 </p>
 
 ---
