@@ -70,11 +70,21 @@ S- RS 04: The reload mechanic is implemented exclusively through a shake-to-relo
 
 ### HRS
 
-- Placeholder HRS requirement one.
-- Placeholder HRS requirement two.
-- Placeholder HRS requirement three.
-- Placeholder HRS requirement four.
-- Placeholder HRS requirement five.
+- HRS 01: The IR emitter circuit uses an NPN transistor to drive a 940 nm IR LED at approximately 50 mA, generating a signal that can be reliably detected by a TSOP38238 receiver at a minimum range of 3 meters under typical indoor lighting conditions.
+
+- HRS 02: The vest incorporates at an IR receiver modules positioned to provide both front hit detection coverage, ensuring consistent detection.
+
+- HRS 03: The LCD display ST7735 is clearly visible to the player under normal indoor lighting conditions and updates at a minimum refresh rate of 5 frames per second to reflect current game state information such as ammo.
+
+- HRS 04: A Feather ESP-based microcontroller system is used to handle wireless communication with the web application, maintaining a stable connection and enabling reliable transmission of game state data within typical indoor operating distances of up to 5 meters.
+
+- HRS 05: A piezo buzzer on the blaster provides clear and audible feedback at a minimum of 65 dB measured at 30 cm, with distinct tones corresponding to events such as firing, reload completion, and no ammo.
+
+- HRS 06: The blaster and vest are each powered by USB power banks supplying 5V directly, with a minimum capacity of 5000 mAh to support at least 60 minutes of continuous gameplay without requiring recharge.
+
+- HRS 07: Each ATmega328PB operates at 16 MHz with a regulated 5V supply, and each MCU includes a 100 nF ceramic decoupling capacitor across VCC to filter high-frequency noise; the total current draw per subsystem does not exceed 500 mA during normal operation.
+
+- HRS 08: The vest includes a visual feedback system consisting of three LEDs that indicate the player’s remaining lives, with the number of illuminated LEDs decreasing by one for each valid hit until all lives are depleted; the LEDs are clearly visible from at least 2 meters under standard indoor lighting.
 
 ---
 
