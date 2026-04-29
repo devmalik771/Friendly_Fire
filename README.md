@@ -54,11 +54,19 @@
 
 ### SRS
 
-- Placeholder SRS requirement one.
-- Placeholder SRS requirement two.
-- Placeholder SRS requirement three.
-- Placeholder SRS requirement four.
-- Placeholder SRS requirement five.
+- SRS 01: The blaster firmware activates the IR LED for a duration of 0.5 seconds immediately after a valid trigger press is detected, ensuring that each shot produces a consistent and clearly identifiable output signal. This timing is controlled precisely in software so that every trigger event results in uniform LED behavior regardless of user input speed.
+
+- SRS 02: The blaster firmware enforces a minimum inter-shot interval of 500 ms (±50 ms) to prevent excessive firing or spamming. During this cooldown period, any additional trigger inputs are ignored, and the system only re-enables firing once the interval has fully elapsed, ensuring consistent gameplay pacing and system reliability.
+
+- SRS 03: The blaster firmware decrements the ammo counter each time a valid shot is fired and prevents any further firing once the ammo count reaches zero. The LCD display updates the visible ammo count within 100 ms of each shot, providing immediate feedback to the user and ensuring the displayed value always reflects the true internal state.
+
+S- RS 04: The reload mechanic is implemented exclusively through a shake-to-reload gesture detected by the MPU6050 accelerometer. When a valid shake pattern is identified, the system initiates a reload sequence that restores the ammo count to its maximum value, providing a responsive and intuitive method for reloading without requiring button input.
+
+- SRS 05: The vest firmware transmits updated player status information, including current health and elimination state, to the BLE module via UART within 500 ms of any change in game state. This ensures that external systems, such as a connected web application, receive timely and accurate updates reflecting in-game events.
+
+- SRS 06: When a RESET command is received from the web application via BLE, both microcontrollers transition back to their initial ready state within 1 second. This reset restores full health, full ammo, and ALIVE status, ensuring the system is quickly ready for a new game session.
+
+- SRS 07: The blaster firmware continuously reads acceleration data from the MPU6050 via I2C at a minimum sampling rate of 20 Hz. A shake-to-reload gesture is detected when acceleration exceeds 2g on any axis for at least three consecutive samples, at which point the system reliably triggers the reload sequence.
 
 ### HRS
 
