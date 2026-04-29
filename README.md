@@ -24,8 +24,8 @@
 <p align="center">
   <a href="https://drive.google.com/drive/folders/1jIbaAgMy6JAKm02dPGXfAoZNbYtTDbEu?usp=drive_link" target="_blank">
     <img
-      src="https://via.placeholder.com/900x500?text=Project+Video+Placeholder"
-      alt="Project Video Placeholder"
+      src="97A66F71-92C9-49CD-952B-EC76C21F20E5_1_201_a.jpeg"
+      alt="Project Preview"
       width="900"
     />
   </a>
