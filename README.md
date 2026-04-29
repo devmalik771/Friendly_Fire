@@ -41,10 +41,10 @@
 
 <table align="center">
   <tr>
-    <td align="center"><img src="https://via.placeholder.com/260x180?text=Photo+1" alt="Photo 1" width="260" /></td>
-    <td align="center"><img src="https://via.placeholder.com/260x180?text=Photo+2" alt="Photo 2" width="260" /></td>
-    <td align="center"><img src="https://via.placeholder.com/260x180?text=Photo+3" alt="Photo 3" width="260" /></td>
-    <td align="center"><img src="https://via.placeholder.com/260x180?text=Photo+4" alt="Photo 4" width="260" /></td>
+    <td align="center"><img src="BC30B69A-D534-4F47-960F-197C5A3D39F0.jpeg" alt="Project Photo 1" width="260" /></td>
+    <td align="center"><img src="E00DB375-7C94-4746-8EB7-D28F67BDDE87_4_5005_c.jpeg" alt="Project Photo 2" width="260" /></td>
+    <td align="center"><img src="97A66F71-92C9-49CD-952B-EC76C21F20E5_4_5005_c.jpeg" alt="Project Photo 3" width="260" /></td>
+    <td align="center"><img src="743F97F7-3B76-4786-BACA-8DD1AD077CB3_4_5005_c.jpeg" alt="Project Photo 4" width="260" /></td>
   </tr>
 </table>
 
