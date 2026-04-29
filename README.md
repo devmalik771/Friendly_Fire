@@ -1,10 +1,20 @@
-<h1 align="center">ESE 3500</h1>
+<h1 align="center">ESE 3500 - Friendly Fire</h1>
 
 <p align="center">
   <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Devan Malik</strong></span>
   <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Marko Mijatovic</strong></span>
   <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Kim Huang</strong></span>
   <span style="display:inline-block; min-width:22%; text-align:center;"><strong>Victor Wanjohi</strong></span>
+</p>
+
+---
+
+<h2 align="center">Description</h2>
+
+<p align="center">
+  This project is a fully operational laser tag game with separate blaster and chest-mount
+  components. The system is fully controlled through a web app, which includes a game dashboard
+  for managing gameplay, tracking status, and monitoring the overall match experience.
 </p>
 
 ---
