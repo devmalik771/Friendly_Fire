@@ -22,17 +22,17 @@
 <h2 align="center">Project Video</h2>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID_HERE" target="_blank">
+  <a href="https://drive.google.com/drive/folders/1jIbaAgMy6JAKm02dPGXfAoZNbYtTDbEu?usp=drive_link" target="_blank">
     <img
-      src="https://img.youtube.com/vi/VIDEO_ID_HERE/maxresdefault.jpg"
-      alt="Project Video"
+      src="https://via.placeholder.com/900x500?text=Project+Video+Placeholder"
+      alt="Project Video Placeholder"
       width="900"
     />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID_HERE"><strong>Watch the video presentation</strong></a>
+  <a href="https://drive.google.com/drive/folders/1jIbaAgMy6JAKm02dPGXfAoZNbYtTDbEu?usp=drive_link"><strong>Open the project video folder</strong></a>
 </p>
 
 ---
@@ -45,12 +45,6 @@
     <td align="center"><img src="https://via.placeholder.com/260x180?text=Photo+2" alt="Photo 2" width="260" /></td>
     <td align="center"><img src="https://via.placeholder.com/260x180?text=Photo+3" alt="Photo 3" width="260" /></td>
     <td align="center"><img src="https://via.placeholder.com/260x180?text=Photo+4" alt="Photo 4" width="260" /></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://via.placeholder.com/260x180?text=Photo+5" alt="Photo 5" width="260" /></td>
-    <td align="center"><img src="https://via.placeholder.com/260x180?text=Photo+6" alt="Photo 6" width="260" /></td>
-    <td align="center"><img src="https://via.placeholder.com/260x180?text=Photo+7" alt="Photo 7" width="260" /></td>
-    <td align="center"><img src="https://via.placeholder.com/260x180?text=Photo+8" alt="Photo 8" width="260" /></td>
   </tr>
 </table>
 
